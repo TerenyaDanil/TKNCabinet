@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css"
 		integrity="sha512-q54FvbV+gGBn+NvgaD4gpJ7w4wrO00DgW7Rx503PIhrf0CuMwLOwbS+bXgOBFSob+6GVy1HDPfaRLJ8w2jiS4g=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="css/style.min.css?v=2">
+	<link rel="stylesheet" href="css/style.min.css?v=1">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
@@ -41,7 +41,7 @@
 					</div>
 				</a>
 			</div>
-			<a href="welcome.html" class="header__escape">
+			<a class="header__escape">
 				<img src="img/icon/log-out.png" alt="">
 				<div class="header__escape-text">
 					Выход
@@ -61,17 +61,17 @@
 			<section class="transform">
 				<div class="transform__content">
 					<div class="transform__nav nav-transform">
-						<a href="transform.html" class="nav-transform__item active">
+						<div data-toggle="nav" class="nav-transform__item active">
 							Перевод
-						</a>
-						<a href="transform2.html" class="nav-transform__item">
+						</div>
+						<div data-toggle="nav" class="nav-transform__item">
 							Пополнение
-						</a>
-						<a href="transform3.html" class="nav-transform__item">
+						</div>
+						<div data-toggle="nav" class="nav-transform__item">
 							Делегировать
-						</a>
+						</div>
 					</div>
-					<div class="transform__form form-transform">
+					<!-- <div class="transform__form form-transform">
 						<div class="form-transform__item">
 							<input type="text" placeholder="tsib">
 						</div>
@@ -86,7 +86,7 @@
 						<div class="form-transform__btn">
 							<button class="btn btn-l">перевести</button>
 						</div>
-					</div>
+					</div> -->
 					<!-- <div class="refill">
 						<form action="#" class="refill__form">
 							<div class="qr__img">
@@ -107,7 +107,7 @@
 
 						</form>
 					</div> -->
-					<!-- <div class="delig">
+					<div class="delig">
 						<form action="" class="delig__form">
 							<div class="delig__form-wrap">
 								<div class="delig__form-item">
@@ -129,7 +129,7 @@
 								<button class="btn btn-l">Делегировать</button>
 							</div>
 						</form>
-					</div> -->
+					</div>
 				</div>
 	</div>
 	</section>

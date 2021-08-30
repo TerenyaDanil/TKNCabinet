@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css"
 		integrity="sha512-q54FvbV+gGBn+NvgaD4gpJ7w4wrO00DgW7Rx503PIhrf0CuMwLOwbS+bXgOBFSob+6GVy1HDPfaRLJ8w2jiS4g=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="css/style.min.css?v=1">
+	<link rel="stylesheet" href="css/style.min.css?v=2">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
@@ -18,36 +18,37 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-	<a href="create.html" class="header__logo">
-		<img src="img/logo.png" alt="">
-	</a>
-	<div class="header__list list-header">
-		<a href="index.html" class="list-header__item">
-			<img src="img/icon/wallet.png" alt="">
-			<div class="list-header__text">
-				Кошелек
+			<a href="create.html" class="header__logo">
+				<img src="img/logo.png" alt="">
+			</a>
+
+			<div class="header__list list-header">
+				<a href="index.html" class="list-header__item list-header__item-1" style="opacity:1">
+					<img src="img/icon/wallet.png" alt="">
+					<div class="list-header__text">
+						Кошелек
+					</div>
+				</a>
+				<a href="qr.html" class="list-header__item list-header__item-2">
+					<img src="img/icon/qr.png" alt="">
+					<div class="list-header__text">
+						QR-код
+					</div>
+				</a>
+				<a href="transform.html" class="list-header__item list-header__item-3">
+					<img src="img/icon/transport.png" alt="">
+					<div class="list-header__text">
+						Перевод
+					</div>
+				</a>
 			</div>
-		</a>
-		<a href="qr.html" class="list-header__item">
-			<img src="img/icon/qr.png" alt="">
-			<div class="list-header__text">
-				QR-код
-			</div>
-		</a>
-		<a href="transform.html" class="list-header__item">
-			<img src="img/icon/transport.png" alt="">
-			<div class="list-header__text">
-				Перевод
-			</div>
-		</a>
-	</div>
-	<a class="header__escape">
-		<img src="img/icon/log-out.png" alt="">
-		<div class="header__escape-text">
-			Выход
-		</div>
-	</a>
-</header>
+			<a href="welcome.html" class="header__escape ">
+				<img src="img/icon/log-out.png" alt="">
+				<div class="header__escape-text">
+					Выход
+				</div>
+			</a>
+		</header>
 		<main class="page">
 
 			<div class="total">
@@ -158,8 +159,25 @@
 			</section>
 		</main>
 
-
 	</div>
+	<!-- ///////////////////////////////////////////////// -->
+
+<div id="ex" class="popup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a class="popup__close close-popup">X</a>
+
+			<div class="popup__text">
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- ///////////////////////////////////////////////// -->
 
 	
 </body>
