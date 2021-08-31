@@ -917,6 +917,7 @@ body.lock {
   border-radius: 2rem;
   border: solid 0.25rem #fff;
   background: none;
+  resize: none;
   font-size: 1.35rem;
   line-height: 1.81;
   padding: 3.7rem 5rem 3.5rem;
@@ -1039,7 +1040,8 @@ body.lock {
   opacity: 0.5;
 }
 
-.form-create__btn button {
+.form-create__btn button,
+.form-create__btn a {
   width: 100%;
 }
 
@@ -1116,6 +1118,7 @@ body.lock {
     -webkit-transform: translate(-50%, 0);
         -ms-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
+    z-index: 10;
   }
 
   .header__logo img {
@@ -1452,7 +1455,8 @@ body.lock {
     font-size: 1.2rem;
   }
 
-  .form-create__btn button {
+  .form-create__btn button,
+  .form-create__btn a {
     font-size: 1.35rem;
     padding: 2.8rem 0rem 2.7rem 0rem;
   }
